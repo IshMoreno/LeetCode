@@ -1,7 +1,6 @@
-"""
-Given an integer array nums, return true if any value appears at least twice 
-in the array, and return false if every element is distinct.
-"""
+# Given an integer array nums, return true if any value appears at least twice 
+# in the array, and return false if every element is distinct.
+
 
 """
 Edge Cases:
@@ -15,7 +14,7 @@ Edge Cases:
    testing the solution's ability to handle a wide range of values.
 """
 
-# Brute Force Approach
+# Brute force approach
 namespace ContainsDuplicate
 {
     class Solution :
@@ -27,12 +26,10 @@ namespace ContainsDuplicate
             return False  # No duplicates found
 }
 
-"""
-Time Complexity: O(n^2), where n is the number of elements in the array.
-Space Complexity: O(1) as no additional space is used.
-"""
+# Time Complexity: O(n^2), where n is the number of elements in the array.
+# Space Complexity: O(1) as no additional space is used.
 
-#More effiient approach
+# More effiient approach
 my_List = [1,2,3,1]
 
 namespace ContainsDuplicate
@@ -47,7 +44,5 @@ namespace ContainsDuplicate
             return False  # No duplicates found
 }
 
-"""
-Time Complexity: O(n), where n is the number of elements in the array.
-Space Complexity: O(n) in the worst case, if all elements are distinct.
-"""
+# Time Complexity: O(n), where n is the number of elements in the array.
+# Space Complexity: O(n) in the worst case, if all elements are distinct.
