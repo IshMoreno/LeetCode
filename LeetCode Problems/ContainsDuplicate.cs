@@ -15,9 +15,7 @@ Edge Cases:
    testing the solution's ability to handle a wide range of values.
 """
 
-"""
-Brute Force Approach
-"""
+# Brute Force Approach
 namespace ContainsDuplicate
 {
     class Solution :
@@ -34,9 +32,7 @@ Time Complexity: O(n^2), where n is the number of elements in the array.
 Space Complexity: O(1) as no additional space is used.
 """
 
-"""
-More effiient approach
-"""
+#More effiient approach
 my_List = [1,2,3,1]
 
 namespace ContainsDuplicate
